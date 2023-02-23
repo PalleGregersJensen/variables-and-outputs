@@ -12,8 +12,7 @@ function initApp() {
 function incrementNumber() { 
     console.log("Plus-knap");
     console.log(number);
-    number = number + 1
-    console.log(number);
+    number = number + 1;
     displayNumber();
 }
 
@@ -38,9 +37,26 @@ function decrementNumber() {
 
 function displayNumber() {
   console.log("displayNumber");
-    document.querySelector("#number"), textContent = number;
+    document.querySelector("#number"),textContent = number;
     let message = 'The number is: $(number)';
     console.log(message);
-    document.querySelector("#messgage"), textContent = message;
+    document.querySelector("#messgage"),textContent = message;
 }
 
+let num = 7;
+console.log(num);
+
+if (num > 5) {
+  console.log("Tallet er større eller lig end 5");
+}
+
+let fullName = "Hanne"
+
+if (fullName == "Hanne") {
+console.log("ja, det er Hanne")
+}
+
+
+let num = 2
+
+if (num>)
